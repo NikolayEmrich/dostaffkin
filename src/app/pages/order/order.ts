@@ -43,8 +43,8 @@ export class Order {
   ngOnInit() {
     ymaps.ready(() => {
       this.map = new ymaps.Map('map', {
-        center: [55.751244, 37.618423],
-        zoom: 5,
+        center: [55.751245, 37.418425],
+        zoom: 10,
         controls: ['zoomControl']
       });
 
